@@ -1,0 +1,51 @@
+# ───────────────
+# BINÁRIOS COMPILADOS
+# ───────────────
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# ───────────────
+# BUILD / DIST
+# ───────────────
+build/
+dist/
+
+# ───────────────
+# VENDORS (caso use `go mod vendor`)
+# ───────────────
+vendor/
+
+# ───────────────
+# LOGS & TEMPORÁRIOS
+# ───────────────
+*.log
+*.tmp
+
+# ───────────────
+# ARQUIVOS DE AMBIENTE
+# ───────────────
+.env
+.env.local
+
+# ───────────────
+# CONFIGS DE EDITOR
+# ───────────────
+.vscode/
+.idea/
+
+# ───────────────
+# SISTEMA OPERACIONAL
+# ───────────────
+.DS_Store
+Thumbs.db
+
+# ───────────────
+# COBERTURA DE TESTES (caso adicione testes depois)
+# ───────────────
+coverage/
+*.coverprofile

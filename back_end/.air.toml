@@ -1,0 +1,9 @@
+root = "."
+tmp_dir = "tmp"
+bin = "tmp/main.exe"
+full_bin = "true"
+
+[build]
+  cmd = "go build -o tmp/main.exe ./cmd/server"
+  include_ext = ["go", "graphql", "sql"]
+  exclude_dir = ["tmp"]
