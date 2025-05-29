@@ -17,7 +17,7 @@ O **CineBase** é uma plataforma de filmes desenvolvida com **React**, **Tailwin
 - 🔐 **Autenticação completa**
   - Cadastro, login, logout
   - Avatar com as iniciais do usuário logado
-- 🎨 Interface moderna e responsiva inspirada no estilo do site [frame.io](https://frame.io)
+- 🎨 Interface moderna e responsiva 
 - 🧠 Armazenamento de estado global com **Zustand**
 
 ---
